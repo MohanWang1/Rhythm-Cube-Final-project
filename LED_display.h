@@ -46,7 +46,6 @@ extern "C" {
         int REFRESH_RATE;
     }LED;
     void LED_writeColor(int r, int g, int b);
-    void set_NUM_LEDS(int n);
     void LED_YELLOW();
     void LED_GREEN();
     void LED_RED();
@@ -54,7 +53,6 @@ extern "C" {
     void LED_WHITE();
     void start_Display(struct LED *stripe);
     //void music_Display(int* music, int* STA);
-    void MtoD(int n);
     
 #ifdef	__cplusplus
 }
